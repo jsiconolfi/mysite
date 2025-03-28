@@ -1,0 +1,15 @@
+# Use PHP5 Single php.ini as default
+# AddHandler application/x-httpd-eig-php52 .php
+
+DirectoryIndex home.html index.html
+# Setting Cache-Control header for static assets to 30 days
+<FilesMatch "\.(jpg|jpeg|png|gif|js|css|svg|mp4|webp)$">
+    Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php82” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php82___lsphp .php .php8 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit

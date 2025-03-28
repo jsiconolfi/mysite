@@ -1,0 +1,16 @@
+{
+  "name": "updated-index-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "figma": "figma-developer-mcp --figma-api-key=$FIGMA_API_KEY"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "figma-developer-mcp": "^1.0.0"
+  }
+}
